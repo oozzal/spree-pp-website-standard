@@ -35,7 +35,7 @@
     
     <input id="cmd" name="cmd" type="hidden" value="_cart" />
     <input type="hidden" name="upload" value="1" />
-    <input id="notify_url" name="notify_url" type="hidden" value="<%#= payment_notifications_url %>" />
+    <input id="notify_url" name="notify_url" type="hidden" value="<%= payment_notifications_url %>" />
     <input type="hidden" name="rm" value ="2" />
     <input id="return" name="return" type="hidden" value="<%= payment_method.preferences[:success_url] %>" />
     
